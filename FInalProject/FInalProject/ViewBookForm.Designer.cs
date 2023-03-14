@@ -50,7 +50,7 @@
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.RosyBrown;
+            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.panel1.Controls.Add(this.txtSearchBook);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel1.Location = new System.Drawing.Point(0, 462);
@@ -60,9 +60,9 @@
             // 
             // txtSearchBook
             // 
-            this.txtSearchBook.Location = new System.Drawing.Point(283, 7);
+            this.txtSearchBook.Location = new System.Drawing.Point(83, 17);
             this.txtSearchBook.Name = "txtSearchBook";
-            this.txtSearchBook.Size = new System.Drawing.Size(190, 20);
+            this.txtSearchBook.Size = new System.Drawing.Size(728, 20);
             this.txtSearchBook.TabIndex = 0;
             this.txtSearchBook.TextChanged += new System.EventHandler(this.txtSearchBook_TextChanged);
             // 
